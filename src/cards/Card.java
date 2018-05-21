@@ -10,6 +10,8 @@ public class Card {
 	// constructors
 	public Card() {
 		System.out.println("Empty constructor");
+		System.out.println("No value entered. Value set to default: " + this.DEFAULT_VALUE);
+		System.out.println("No color entered. Color set to default: " + this.DEFAULT_COLOR);
 	}
 
 	public Card(int valueIn) {
